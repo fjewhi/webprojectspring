@@ -1,42 +1,61 @@
-body {background-color: #33E0FF;}
+body {background-color: #33fff0;}
 
-
-html{
-  font-size: 77%;
-}
-
-h1{
-  font-size: 4rem;
-  font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: -194;
-  font-style: normal;
-  font-variation-settings:
-    "MORF" 18,
-    "SHLN" 50;
-}
-h2{
-  font-size: 2rem;
-  font-family: "Ole", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-figcaption{
-    font-size: 13px
-}
 
 
 img, video{
-	max-width: 45%;
+	max-width: 42%;
 	height: auto;
 }
 
-
-body{
-  font-family: Arial, sans-serif;
+header {
+  background-color: #33beff;
+  color: #0d1720;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: -5px -57px;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: "Raleway", serif;
+.site-title {
+  font-size: 2.1em;
 }
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  gap: 33px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  color: #0b5a54; 
+  text-decoration: underline; 
+}
+
+footer{
+    border-top: 2px solid #333333;
+    margin-top:1rem;
+    padding-top: 1rem;
+}
+
+
+main{
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure{
+  
+  text-align: center;
+}
+
+h1,h2 {
+  text-align: center;
+    
+  }
+
+
+
